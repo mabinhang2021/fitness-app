@@ -1,16 +1,52 @@
-# flutter_application_1
+# 智能健身应用 (Fitness App)
 
-A new Flutter project.
+一款基于 Flutter 开发的移动应用程序，旨在成为您的智能健身伙伴。核心功能包括 AI 动作分析与检测、交互式数字人动作演示以及智能聊天支持。
 
-## Getting Started
+## 项目概览
 
-This project is a starting point for a Flutter application.
+本项目致力于为用户提供创新且个性化的健身体验。通过集成前沿技术，本应用能够为用户的锻炼提供实时反馈，通过数字人模型进行清晰的动作指导，并为用户的各种健身疑问提供 AI 驱动的解答与支持。
 
-A few resources to get you started if this is your first Flutter project:
+## 主要功能
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **AI 动作检测：** 采用先进的算法检测和分析用户在锻炼过程中的动作，提供反馈以确保动作的规范性和有效性。
+* **数字人动作演示：** 内置数字人模型，能够清晰、标准地演示各种锻炼动作，帮助用户理解正确的姿势和运动轨迹。
+* **AI 聊天助手：** 集成 AI 聊天机器人，可以回答健身相关的各种问题，提供锻炼建议，并给予用户激励和支持。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 快速上手
+
+本项目是 Flutter 应用的起始框架。
+
+如果您是初次接触 Flutter 项目，以下是一些可以帮助您入门的资源：
+
+-   [实验：编写您的第一个 Flutter 应用](https://docs.flutter.dev/get-started/codelab)
+-   [手册：实用的 Flutter 示例](https://docs.flutter.dev/cookbook)
+
+如需 Flutter 开发的进一步帮助，请查阅 Flutter
+[官方在线文档](https://docs.flutter.dev/)，其中包含了教程、示例、移动开发指南以及完整的 API 参考。
+
+## 待办事项 (TODO)
+
+以下是本应用持续开发过程中计划完成的任务和特性：
+
+* **后端开发：**
+    * [ ] 设计并实现用户认证及个人资料管理系统。
+    * [ ] 开发用于存储和检索锻炼历史、用户进度及自定义计划的 API 接口。
+    * [ ] 建立用户数据、动作库及 AI 交互日志的数据库结构。
+    * [ ] 确保后端服务的可扩展性与安全性。
+
+* **Claude API 密钥集成与 AI 聊天功能增强：**
+    * [ ] 在应用或后端安全地存储和管理 Claude API 密钥。
+    * [ ] 实现与 Claude API 之间稳定高效的通信流程，以支持 AI 聊天功能。
+    * [ ] 为健身相关的 AI 对话开发并优化引导指令 (Prompts)。
+    * [ ] 探索更高级的 AI 聊天功能，如个性化训练计划生成或饮食建议 (需评估 API 能力及遵循伦理规范)。
+
+* **动作检测与数字人模型优化：**
+    * [ ] 扩展支持动作检测和演示的动作库。
+    * [ ] 提升动作检测系统的准确性和实时反馈的质量。
+    * [ ] 增强数字人模型的真实感和可定制性。
+
+* **用户界面/用户体验 (UI/UX) 优化：**
+    * [ ] 进行用户测试并收集反馈，以持续改进 UI/UX。
+    * [ ] 设计更直观、更具吸引力的用户界面。
+
+## 项目设置 (可选参考)
